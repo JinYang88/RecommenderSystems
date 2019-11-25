@@ -28,7 +28,7 @@
 '''
 import pandas as pd
 import math
-train_path = './avazu.csv'
+train_path = '/uac/gds/slhe/liujy/TorchCTR/data/avazu/avazu.csv'
 f1 = open(train_path, 'r')
 dic = {}
 f_train_value = open('./train_x.txt', 'w')
