@@ -5,7 +5,7 @@ import tensorflow as tf
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import StratifiedKFold
 from time import time
-from .model import AutoInt
+from model import AutoInt
 import argparse
 import os
 
