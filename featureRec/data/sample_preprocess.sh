@@ -1,4 +1,3 @@
-mkdir Criteo
-python ./Dataprocess/Criteo/preprocess.py
+mkdir Avazu
+python ./Dataprocess/Avazu/preprocess.py
 python ./Dataprocess/Kfold_split/stratifiedKfold.py
-python ./Dataprocess/Criteo/scale.py
